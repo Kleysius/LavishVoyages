@@ -568,6 +568,12 @@ footer {
 @media screen and (max-width: 768px) {
     .navbar {
         height: auto;
+        padding: 10px 20px;
+    }
+
+    .logo {
+        height: 60px;
+        margin-top: 0;
     }
 
     .link-item {
@@ -580,9 +586,10 @@ footer {
     }
 
     .link-item a {
-        padding: 10px;
+        padding: 5px;
         margin: auto;
         display: block;
+        font-size: 14px;
     }
 
     .section-title {
